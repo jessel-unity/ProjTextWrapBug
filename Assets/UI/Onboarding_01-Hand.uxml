@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="OnboardingFlow.uss" />
+    <ui:Label text="1. PICK A HAND" display-tooltip-when-elided="true" class="title" />
+    <ui:Label text="Which hand do you want to write and draw with?" display-tooltip-when-elided="true" class="subtitle" />
+    <ChoiceControlElement exclusive="true" style="flex-direction: row;">
+        <ui:VisualElement class="choice icon-choice">
+            <ui:VisualElement class="choice__icon-container">
+                <ui:VisualElement class="choice__icon" style="background-image: url(&apos;/Assets/UI/Images/icon_left-hand.png&apos;);" />
+            </ui:VisualElement>
+            <ui:Label text="Left&#10;" display-tooltip-when-elided="true" class="choice__label" style="margin-right: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement class="choice icon-choice">
+            <ui:VisualElement class="choice__icon-container">
+                <ui:VisualElement class="choice__icon" style="background-image: url(&apos;/Assets/UI/Images/icon_right-hand.png&apos;);" />
+            </ui:VisualElement>
+            <ui:Label text="Right" display-tooltip-when-elided="true" class="choice__label" />
+        </ui:VisualElement>
+    </ChoiceControlElement>
+</ui:UXML>

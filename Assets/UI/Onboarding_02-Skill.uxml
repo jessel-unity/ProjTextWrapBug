@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="OnboardingFlow.uss" />
+    <ui:Label text="2. RATE YOUR SKILLS" display-tooltip-when-elided="true" class="title" />
+    <ui:Label text="How would you describe your creative abilities?" display-tooltip-when-elided="true" class="subtitle" />
+    <ChoiceControlElement exclusive="true" class="container--stretch">
+        <ui:VisualElement class="choice">
+            <ui:Label text="I&apos;m a beginner" display-tooltip-when-elided="true" class="choice__label" />
+        </ui:VisualElement>
+        <ui:VisualElement class="choice">
+            <ui:Label text="I&apos;m comfortable with my skills" display-tooltip-when-elided="true" class="choice__label" />
+        </ui:VisualElement>
+        <ui:VisualElement class="choice">
+            <ui:Label text="I&apos;m experienced and I love a challange" display-tooltip-when-elided="true" class="choice__label" />
+        </ui:VisualElement>
+    </ChoiceControlElement>
+</ui:UXML>

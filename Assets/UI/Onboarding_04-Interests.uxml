@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="OnboardingFlow.uss" />
+    <ui:Label text="4. CUSTOMIZE RECOMMENDATIONS" display-tooltip-when-elided="true" class="title" />
+    <ui:Label text="Which creations are you most interested in?&#10;" display-tooltip-when-elided="true" class="subtitle" />
+    <ChoiceControlElement class="container--stretch">
+        <ui:VisualElement class="mosaic__column">
+            <ui:VisualElement class="choice">
+                <ui:Label text="Caligraphy" display-tooltip-when-elided="true" class="choice__label" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="mosaic__row">
+            <ui:VisualElement class="mosaic__column mosaic__column--left">
+                <ui:VisualElement class="choice">
+                    <ui:Label text="Brush Lettering" display-tooltip-when-elided="true" class="choice__label" />
+                </ui:VisualElement>
+                <ui:VisualElement class="choice choice--large">
+                    <ui:Label text="Posters" display-tooltip-when-elided="true" class="choice__label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="mosaic__column mosaic__column--right">
+                <ui:VisualElement class="choice choice--large">
+                    <ui:Label text="Cards" display-tooltip-when-elided="true" class="choice__label" />
+                </ui:VisualElement>
+                <ui:VisualElement class="choice">
+                    <ui:Label text="Origami" display-tooltip-when-elided="true" class="choice__label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="mosaic__row">
+            <ui:VisualElement class="mosaic__column mosaic__column--left">
+                <ui:VisualElement class="choice">
+                    <ui:Label text="Figurines" display-tooltip-when-elided="true" class="choice__label" />
+                </ui:VisualElement>
+                <ui:VisualElement class="choice choice--large">
+                    <ui:Label text="Bricks &amp; Blocks" display-tooltip-when-elided="true" class="choice__label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="mosaic__column mosaic__column--right">
+                <ui:VisualElement class="choice choice--large">
+                    <ui:Label text="Graphic Design" display-tooltip-when-elided="true" class="choice__label" />
+                </ui:VisualElement>
+                <ui:VisualElement class="choice">
+                    <ui:Label text="Papercraft" display-tooltip-when-elided="true" class="choice__label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ChoiceControlElement>
+</ui:UXML>

@@ -1,0 +1,39 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="OnboardingFlow.uss" />
+    <ui:Label text="3. WHAT&apos;S IN YOUR PENCILCASE" display-tooltip-when-elided="true" class="title" />
+    <ui:Label text="Which art and writing tools do you already own?" display-tooltip-when-elided="true" class="subtitle" />
+    <ChoiceControlElement class="container--stretch">
+        <ui:Label text="Label 1" display-tooltip-when-elided="true" class="brand-label" />
+        <ui:VisualElement class="choice">
+            <ui:Label text="Some Writing Tool 1" display-tooltip-when-elided="true" class="choice__label" />
+            <ui:Label text="or similar&#10;" display-tooltip-when-elided="true" class="choice__secondary-label" />
+        </ui:VisualElement>
+        <ui:VisualElement class="choice">
+            <ui:Label text="Some Writing Tool 2 | Some Art Tool 1" display-tooltip-when-elided="true" class="choice__label" />
+            <ui:Label text="or similar" display-tooltip-when-elided="true" class="choice__secondary-label" />
+        </ui:VisualElement>
+        <ui:VisualElement class="choice">
+            <ui:Label text="Some Writing Tool 3 | Some Art Tool 2" display-tooltip-when-elided="true" class="choice__label" />
+            <ui:Label text="or similar" display-tooltip-when-elided="true" class="choice__secondary-label" />
+        </ui:VisualElement>
+        <ui:VisualElement class="choice">
+            <ui:Label text="Some Writing Tool 4" display-tooltip-when-elided="true" class="choice__label" />
+            <ui:Label text="or similar" display-tooltip-when-elided="true" class="choice__secondary-label" />
+        </ui:VisualElement>
+        <ui:VisualElement class="choice">
+            <ui:Label text="Some Writing Tool 5" display-tooltip-when-elided="true" class="choice__label" />
+            <ui:Label text="or similar" display-tooltip-when-elided="true" class="choice__secondary-label" />
+        </ui:VisualElement>
+    </ChoiceControlElement>
+    <ChoiceControlElement class="container--stretch">
+        <ui:Label text="Label 2" display-tooltip-when-elided="true" class="brand-label" />
+        <ui:VisualElement class="choice">
+            <ui:Label text="Some Fancy Art Tool 3" display-tooltip-when-elided="true" class="choice__label" />
+            <ui:Label text="or similar" display-tooltip-when-elided="true" class="choice__secondary-label" />
+        </ui:VisualElement>
+        <ui:VisualElement class="choice">
+            <ui:Label text="Some Fancy Art Tool 4" display-tooltip-when-elided="true" class="choice__label" />
+            <ui:Label text="or similar" display-tooltip-when-elided="true" class="choice__secondary-label" />
+        </ui:VisualElement>
+    </ChoiceControlElement>
+</ui:UXML>

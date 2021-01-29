@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="OnboardingFlow.uss" />
+    <ui:VisualElement name="flow-container" style="background-color: rgb(255, 255, 255); flex-grow: 1; justify-content: space-between;">
+        <ui:ScrollView name="scroll-view" style="flex-grow: 1;">
+            <ui:Button text="&#10;" display-tooltip-when-elided="true" name="exit" class="button button--icon button--secondary" style="background-image: url(&apos;/Assets/UI/Images/icon_x.png&apos;); position: absolute; right: 20px; top: 20px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 20px; height: 20px;" />
+        </ui:ScrollView>
+        <ui:VisualElement name="nav" style="flex-direction: row; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
+            <ui:Button display-tooltip-when-elided="true" name="nav-back" class="button button--icon button--selected" style="background-image: url(&apos;/Assets/UI/Images/keyboard_arrow_left.png&apos;);" />
+            <ui:VisualElement name="nav-page-indicators" style="flex-grow: 1; flex-direction: row; justify-content: center; align-items: center;">
+                <ui:VisualElement class="page-indicator page-indicator--active" />
+                <ui:VisualElement class="page-indicator" />
+                <ui:VisualElement class="page-indicator" />
+                <ui:VisualElement class="page-indicator" />
+            </ui:VisualElement>
+            <ui:Button text="Skip" display-tooltip-when-elided="true" name="nav-skip" class="button button--secondary" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
